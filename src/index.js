@@ -19,20 +19,18 @@ import './index.css'
 const root = ReactDOMClient.createRoot(document.getElementById('root'))
 root.render(
   <div>
+    <NavBar />
     <Router>
-      <NavBar />
-      <BrowserRouter>
-        <Routes basename='/'>
-          <Route path='/' element={<Home />} />
-          <Route path='/about.jsx' element={<About />} />
-          <Route path='/Account.jsx' element={<Account />} />
-          <Route path='/Cart.jsx' element={<Cart />} />
-          <Route path='/Categories.jsx' element={<Categories />} />
-          <Route path='/Sign.jsx' element={<Sign />} />
-          <Route path='/Contact.jsx' element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-      <Footer />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about.jsx' element={<About />} />
+        <Route path='/Account.jsx' element={<Account />} />
+        <Route path='/Cart.jsx' element={<Cart />} />
+        <Route path='/Categories.jsx' element={<Categories />} />
+        <Route path='/Sign.jsx' element={<Sign />} />
+        <Route path='/Contact.jsx' element={<Contact />} />
+      </Routes>
     </Router>
+    <Footer />
   </div>
 )
