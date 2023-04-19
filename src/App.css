@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.h1{
+  font-size:8dvw;
+}
+h2{
+  font-size: 3dvw;
+}
+h3{
+  font-size: 2dvw;
+}
+h5{
+  font-size: 1.5dvw;
+}
+p{
+  font-size: 1.3dvw;
+}
+.h2{
+  font-size: 3dvw;
+}
+.h3{
+  font-size: 2dvw;
+}
+.h5{
+  font-size: 1.5dvw;
+}
+.p{
+  font-size: 1.3dvw;
+}
+.btn-text{
+  font-size: 1.3dvw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-hover:hover{
+  transition-duration:0.2s ;
+  transition-property: transform;
+  transform: scale(1.02);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* @media (max-width:470px) {
+  .card-sm{
+    width: 10dvw !important;
   }
+} */
+.card-sm{
+  width: 19dvw;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-shadow{
+  box-shadow:  1px 0px 10px rgba(46, 46, 46, 0.442);
 }
-
-.App-link {
-  color: #61dafb;
+.bg-blue{
+  background: #191f4d;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-banner{
+  background-image: url(./img/banner/b14.png);
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+.hover-link:hover{
+    transition-property: color;
+    color: rgb(52, 172, 52);
+}
+.hover-link::after{
+    content: " ";
+    position: absolute;
+    width: 30px;
+    border: 2px solid rgb(52, 172, 52);
+    border-radius: 5px;
+    left: 10px;
+    top: 30px;
+    transform: translateX(-40px);
+}
+.hover-link:hover::after{
+    transform: translateX(0px);
+    transition-duration: 0.3s;
+}
+.vh50{
+  height: 60vh;
 }

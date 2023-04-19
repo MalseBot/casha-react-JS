@@ -1,17 +1,36 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOMClient from 'react-dom/client'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import {
+  NavBar,
+  Footer,
+  About,
+  Home,
+  Cart,
+  Account,
+  Sign,
+  Contact,
+  Categories,
+} from './Components'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './index.css'
+
+const root = ReactDOMClient.createRoot(document.getElementById('root'))
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  <div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about.jsx' element={<About />} />
+        <Route path='/Account.jsx' element={<Account />} />
+        <Route path='/Cart.jsx' element={<Cart />} />
+        <Route path='/Categories.jsx' element={<Categories />} />
+        <Route path='/Sign.jsx' element={<Sign />} />
+        <Route path='/Contact.jsx' element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
+  </div>
+)
