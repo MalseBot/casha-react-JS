@@ -21,7 +21,7 @@ root.render(
   <div>
     <Router>
       <NavBar />
-      <Routes>
+      <Routes basename='/'>
         <Route path='/' element={<Home />} />
         <Route path='/about.jsx' element={<About />} />
         <Route path='/Account.jsx' element={<Account />} />
