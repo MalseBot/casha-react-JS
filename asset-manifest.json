@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/casha-react-JS/static/css/main.fc183a98.css",
-    "main.js": "/casha-react-JS/static/js/main.1b2341a6.js",
+    "main.js": "/casha-react-JS/static/js/main.01388b15.js",
     "static/media/accountb.jpg": "/casha-react-JS/static/media/accountb.a5f2264c6fb491185391.jpg",
     "static/media/hero4.png": "/casha-react-JS/static/media/hero4.d02d6d2baf046ba16e25.png",
     "static/media/banner.png": "/casha-react-JS/static/media/banner.d27d94d3b18765a0d795.png",
@@ -38,10 +38,10 @@
     "static/media/n1.jpg": "/casha-react-JS/static/media/n1.d0fc999e5c31100e7a56.jpg",
     "index.html": "/casha-react-JS/index.html",
     "main.fc183a98.css.map": "/casha-react-JS/static/css/main.fc183a98.css.map",
-    "main.1b2341a6.js.map": "/casha-react-JS/static/js/main.1b2341a6.js.map"
+    "main.01388b15.js.map": "/casha-react-JS/static/js/main.01388b15.js.map"
   },
   "entrypoints": [
     "static/css/main.fc183a98.css",
-    "static/js/main.1b2341a6.js"
+    "static/js/main.01388b15.js"
   ]
 }
