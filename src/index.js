@@ -19,8 +19,8 @@ import './index.css'
 const root = ReactDOMClient.createRoot(document.getElementById('root'))
 root.render(
   <div>
-    <NavBar />
     <Router>
+    <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about.jsx' element={<About />} />
@@ -30,7 +30,7 @@ root.render(
         <Route path='/Sign.jsx' element={<Sign />} />
         <Route path='/Contact.jsx' element={<Contact />} />
       </Routes>
-    </Router>
     <Footer />
+    </Router>
   </div>
 )
