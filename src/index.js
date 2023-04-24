@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOMClient from 'react-dom/client'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import {
   NavBar,
   Footer,

@@ -1,9 +1,7 @@
 import React from 'react'
 import { Card, Row, Col, ListGroup, Table,Container } from 'react-bootstrap'
 import { AB } from '../img'
-import Signed from '../Signed'
 function Account() {
-  Signed()
 
     const orders=JSON.parse(localStorage.getItem('ordered'))
 

@@ -4,9 +4,7 @@ import { hero4, f1, f2, f3, f4, f5, f6, b2, b7, b4, b18 } from '../img'
 import '../App.css'
 import Products from '../Products data.js'
 import PCard from '../pCard'
-import Signed from '../Signed'
 function Home() {
-  Signed()
   return (
     <>
       <Card className='border-0 rounded-0'>

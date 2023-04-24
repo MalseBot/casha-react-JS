@@ -80,7 +80,7 @@ function Categories() {
                 addNSelect('cuts')
               }}
             >
-              cuts
+              unique
             </Nav.Link>
           </Nav.Item>
         </Nav>

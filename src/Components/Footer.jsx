@@ -1,7 +1,6 @@
 import React from 'react'
 import { Row, Col, ListGroup, Button } from 'react-bootstrap'
 import { logo } from '../img'
-import Signed from '../Signed'
 import { useNavigate } from 'react-router-dom'
 
 function Footer() {
@@ -33,7 +32,6 @@ function Footer() {
     navigate('/')
     window.location.reload()
   }
-  Signed()
   return (
     <div>
       <Row className='m-0 row-cols-lg-3 row-cols-md-2 border-top border-2'>
