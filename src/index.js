@@ -23,12 +23,12 @@ root.render(
     <NavBar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about.jsx' element={<About />} />
-        <Route path='/Account.jsx' element={<Account />} />
-        <Route path='/Cart.jsx' element={<Cart />} />
-        <Route path='/Categories.jsx' element={<Categories />} />
-        <Route path='/Sign.jsx' element={<Sign />} />
-        <Route path='/Contact.jsx' element={<Contact />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/Account' element={<Account />} />
+        <Route path='/Cart' element={<Cart />} />
+        <Route path='/Categories' element={<Categories />} />
+        <Route path='/Sign' element={<Sign />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
     <Footer />
     </Router>

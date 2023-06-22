@@ -88,7 +88,7 @@ function Footer() {
             </ListGroup.Item>
             <ListGroup.Item>
               we give you the access to the most fashioned cloths made only for
-              you. <a href='./About.jsx'>read more</a>
+              you. <a href='./About'>read more</a>
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -127,7 +127,7 @@ function Footer() {
                 </ListGroup.Item>
               </>
             ) : (
-              <a href='./Sign.jsx'>sign up here</a>
+              <a href='./Sign'>sign up here</a>
             )}
           </ListGroup>
         </Col>

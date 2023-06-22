@@ -40,39 +40,39 @@ function NavBar() {
               {sign ? (
                 <Nav.Link
                   className='hover-link position-relative overflow-hidden'
-                  href='./Sign.jsx'
+                  href='./Sign'
                 >
                   sign up
                 </Nav.Link>
               ) : (
                 <Nav.Link
                   className='hover-link position-relative overflow-hidden'
-                  href='./account.jsx'
+                  href='./account'
                 >
                   {JSON.parse(localStorage.getItem('person')).firstName}
                 </Nav.Link>
               )}
               <Nav.Link
                 className='hover-link position-relative overflow-hidden'
-                href='./About.jsx'
+                href='./About'
               >
                 About
               </Nav.Link>
               <Nav.Link
                 className='hover-link position-relative overflow-hidden'
-                href='./Contact.jsx'
+                href='./Contact'
               >
                 Contact
               </Nav.Link>
               <Nav.Link
                 className='hover-link position-relative overflow-hidden'
-                href='./Categories.jsx'
+                href='./Categories'
               >
                 Categories
               </Nav.Link>
               <Nav.Link
                 className='hover-link position-relative overflow-hidden pe-4 ps-3 me-2'
-                href='./Cart.jsx'
+                href='./Cart'
               >
                 <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
                 {/* <Badge className='bg-black bg-opacity-50 p-1 rounded-1 ms-1  '>
