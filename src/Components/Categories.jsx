@@ -9,18 +9,18 @@ function Categories() {
   const [nSelect, addNSelect] = useState('all')
   const [search, addSearch] = useState('')
 
-  const filterCategory = (category) => {
-    if (category === 'all') {
-      const newSearch = Products.filter((items) => items.pName.match(search))
-      setItem(newSearch)
-      return
-    }
-    const newItem = Products.filter((items) => items.category === category)
-    const newSearch = newItem.filter((items) => items.pName.match(search))
-    setItem(newSearch)
-  }
-
   useEffect(() => {
+    const filterCategory = (category) => {
+      if (category === 'all') {
+        const newSearch = Products.filter((items) => items.pName.match(search))
+        setItem(newSearch)
+        return
+      }
+      const newItem = Products.filter((items) => items.category === category)
+      const newSearch = newItem.filter((items) => items.pName.match(search))
+      setItem(newSearch)
+    }
+
     filterCategory(nSelect)
   }, [search, nSelect])
 

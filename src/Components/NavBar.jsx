@@ -13,7 +13,7 @@ function NavBar() {
     setSign(false)}else{
       setSign(true)
     }
-  },[])
+  },[signed])
   
   // cartnumbering
   // const [cartNumber, setCartNumber] = useState('')

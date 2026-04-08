@@ -1,6 +1,6 @@
 import React from 'react'
 import { aboutB ,a6} from '../img'
-import { Card, Container,Row,Col,Table } from 'react-bootstrap'
+import { Card, Container,Row,Col } from 'react-bootstrap'
 function About() {
   return (
     <div>
