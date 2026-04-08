@@ -11,19 +11,27 @@ function Contact() {
         </Card.ImgOverlay>
       </Card>
       <Container>
-        <Table striped bordered hover className='mb-5 mt-5'>
+        <Table striped bordered hover className='mb-5 mt-5 w-50 mx-auto text-center'>
           <thead>
             <tr>
               <th>الاسم</th>
-              <th>e-mail</th>
-
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>اسلام حسانين</td>
-              <td>eslamwtf@gmail.com</td>
-
+              <td>آية حجازي </td>
+            </tr>
+            <tr>
+              <td> صالحة العسيري </td>
+            </tr>
+            <tr>
+              <td>مزنة الدوسري  </td>
+            </tr>
+            <tr>
+              <td>شهد اللقبي </td>
+            </tr>
+            <tr>
+              <td>ماريه أمين</td>
             </tr>
           </tbody>
         </Table>

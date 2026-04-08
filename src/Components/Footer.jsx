@@ -42,9 +42,9 @@ function Footer() {
               <h4>Contact us:</h4>
             </ListGroup.Item>
             <ListGroup.Item>
-              Adress: alexandria borg Al-arab,sanfara st
+              Address: Al-khobar, Saudi Arabia
             </ListGroup.Item>
-            <ListGroup.Item>Phone: +20345761</ListGroup.Item>
+            <ListGroup.Item>Phone: +966501234567</ListGroup.Item>
             <ListGroup.Item>Hours: 10:00-18:00. Mon - Sat</ListGroup.Item>
             <ListGroup.Item>
               Social Media:{' '}

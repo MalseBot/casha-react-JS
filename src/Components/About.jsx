@@ -32,27 +32,6 @@ function About() {
             </Col>
           </Row>
         </Card>
-
-        <Table striped bordered hover className='mb-5'>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th> الاسم</th>
-              <th>Task</th>
-              <th>المسار</th>
-              <th>رقم الجلوس</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>اسلام حسانين احمد حجازي</td>
-              <td>قام بعمل المشروع</td>
-              <td>تسويق</td>
-              <td>77128</td>
-            </tr>
-    </tbody>
-        </Table>
       </Container>
     </div>
   )
